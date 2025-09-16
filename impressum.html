@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impressum – Christian Buchholz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-football">
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">CB</div>
+        <div class="title">
+          <h1>Impressum</h1>
+          <p class="subtitle">Christian Buchholz</p>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html#about">Profil</a>
+        <a href="index.html#stations">Stationen</a>
+        <a href="index.html#contact">Kontakt</a>
+        <a href="impressum.html" aria-current="page">Impressum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section container">
+    <h3>Angaben gemäß § 5 TMG</h3>
+    <p><strong>Name:</strong> Christian Buchholz</p>
+    <p><strong>Adresse:</strong> <em>Bitte hier Ihre ladungsfähige Anschrift eintragen</em></p>
+    <p><strong>E-Mail:</strong> <em>wird nicht auf der Website veröffentlicht</em></p>
+
+    <h3>Haftung für Inhalte</h3>
+    <p>Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich jedoch keine Gewähr übernehmen.</p>
+
+    <h3>Urheberrecht</h3>
+    <p>Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.</p>
+
+    <p class="note">Rechts-Check empfohlen: Bitte Impressum & Datenschutzhinweise vor Veröffentlichung durchsehen lassen.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Christian Buchholz</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

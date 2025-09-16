@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christian Buchholz – Trainer & Teammanager</title>
+  <meta name="description" content="Offizielle Seite von Christian Buchholz, Fußballtrainer & Teammanager aus Iserlohn.">
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-football">
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">CB</div>
+        <div class="title">
+          <h1>Christian Buchholz</h1>
+          <p class="subtitle">Fußballtrainer · Teammanager</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">Profil</a>
+        <a href="#stations">Stationen</a>
+        <a href="#engagement">Engagement</a>
+        <a href="#contact">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-stadium" aria-label="Hero Stadion">
+      <div class="stadium-bg" aria-hidden="true">
+        <svg viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" role="presentation">
+          <defs>
+            <linearGradient id="light" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="rgba(255,255,255,0.35)"/>
+              <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+            </linearGradient>
+          </defs>
+          <g>
+            <polygon points="100,0 260,0 220,260 140,260" fill="url(#light)"/>
+            <polygon points="940,0 1100,0 1060,260 980,260" fill="url(#light)"/>
+          </g>
+          <ellipse cx="600" cy="370" rx="520" ry="170" fill="rgba(0,0,0,.25)"/>
+          <ellipse cx="600" cy="400" rx="560" ry="190" fill="rgba(0,0,0,.15)"/>
+          <rect x="160" y="350" width="880" height="180" fill="rgba(0,0,0,0)" stroke="rgba(255,255,255,.65)" stroke-width="4"/>
+          <line x1="600" y1="350" x2="600" y2="530" stroke="rgba(255,255,255,.65)" stroke-width="4"/>
+          <circle cx="600" cy="440" r="24" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="4"/>
+          <rect x="160" y="390" width="120" height="100" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="4"/>
+          <rect x="920" y="390" width="120" height="100" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="4"/>
+        </svg>
+      </div>
+      <div class="container hero-content">
+        <h2>„Talente entwickeln, Teams formen, Wege aufzeigen.“</h2>
+        <p>Trainer- und Managementerfahrung im Nachwuchs- und Herrenbereich – mit Wurzeln in Iserlohn.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h3>Profil</h3>
+      <p>
+        Ich bin Fußballtrainer und Teammanager mit langjähriger Erfahrung in der Talentförderung,
+        Spielanalyse sowie in der Schnittstelle zwischen Scouting und Teamorganisation.
+        Geboren am 13.06.1977 in Iserlohn, mit Stationen u. a. beim FC Iserlohn 46/49 und
+        als Teammanager von FC Schalke 04 II (Regionalliga West).
+      </p>
+    </section>
+
+    <section id="stations" class="section container">
+      <h3>Ausgewählte Stationen</h3>
+      <ul class="timeline">
+        <li>
+          <div class="year">2025&nbsp;–&nbsp;heute</div>
+          <div class="role">
+            U19-Trainer, FC Iserlohn 46/49<br>
+            <small>(Nachwuchs, Westfalenebene)</small>
+          </div>
+        </li>
+        <li>
+          <div class="year">2023&nbsp;–&nbsp;2024</div>
+          <div class="role">
+            Teammanager, FC Schalke 04 II (Regionalliga West)
+          </div>
+        </li>
+        <li>
+          <div class="year">2014&nbsp;–&nbsp;2023</div>
+          <div class="role">
+            Aufgaben im Nachwuchsbereich (U17/U19) FC Iserlohn; Administration/Scouting bei FC Schalke 04
+          </div>
+        </li>
+      </ul>
+      <p class="note">Gerne ergänze ich Lizenzen, Lehrgänge und Ergebnisse.</p>
+    </section>
+
+    <section id="engagement" class="section container">
+      <h3>Engagement & Themen</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Talententwicklung</h4>
+          <p>Individuelle Förderpläne, positionsspezifische Module, Übergang in den Herrenbereich.</p>
+        </article>
+        <article class="card">
+          <h4>Teamorganisation</h4>
+          <p>Steuerung von Trainings- und Spielbetrieb, Schnittstelle zu Scouting/Medizin, Kadermanagement.</p>
+        </article>
+        <article class="card">
+          <h4>Analyse & Scouting</h4>
+          <p>Videoanalyse, Entwicklungsmetriken, Kaderstrukturierung und Spielidentität.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h3>Kontakt</h3>
+      <p class="muted">Nutze das Formular – die Nachricht wird intern weitergeleitet (E-Mail-Adresse wird auf dieser Seite nicht veröffentlicht).</p>
+      <!-- Replace the action URL with your real Formspree endpoint -->
+      <form class="contact-form" name="kontakt" method="POST" action="https://formspree.io/f/DEIN-ENDPOINT">
+        <input type="hidden" name="_subject" value="Website Kontakt – Christian Buchholz">
+        <input type="hidden" name="_next" value="thanks.html">
+        <label>Ihr Name
+          <input name="name" required>
+        </label>
+        <label>E-Mail
+          <input name="email" type="email" required>
+        </label>
+        <label>Nachricht
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit">Nachricht senden</button>
+        <p class="privacy small">Mit dem Senden erklärst du dich einverstanden, dass deine Angaben zur Kontaktaufnahme gespeichert werden.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Christian Buchholz</p>
+      <p class="small">Statische Vorlage – Impressum/Datenschutz vor Veröffentlichung prüfen.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
